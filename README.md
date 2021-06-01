@@ -3,6 +3,10 @@ Repository for Skoltech DL project 2021 "Investigation of topological losses for
 
 ![The distribution of feature for natural and generated texts during training on 4 layer, 11 head](https://media.giphy.com/media/V9mGnh1b3chIu5YZAT/giphy.gif)
 
+## Authors
+
+Daniil Cherniavskii, Saveliy Galochkin, Yehor Kravets, Lev Kosolapov, Ramilya Sharifullina, Dmitry Kryukov, Georgiy Kozhevniko
+
 ## Requirements installation
 
 The code was test on Python 3.8.5; the requirements can be installed in a new enviroment with:
