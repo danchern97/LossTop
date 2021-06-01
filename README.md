@@ -20,6 +20,6 @@ To examine the MST calculation functions we used, refer to [mst.py](https://gith
 ## Theoretical part
 
 Calculating original topological features is very time consuming, so we used an approximation to H0s, that is the sum of weights above threshold 
-<img src="https://latex.codecogs.com/gif.latex?f = \sum_{i,j=1}W_{ij}\mathbb{1}[W_{ij} > t] "/>
+![equation](https://latex.codecogs.com/gif.latex?f%20%3D%20%5Csum_%7Bi%2Cj%3D1%7DW_%7Bij%7D%5Cmathbb%7B1%7D%5BW_%7Bij%7D%20%3E%20t%5D)
 
-The final topological loss is defined as <img src="https://latex.codecogs.com/gif.latex?L_{\text{Top}} = \frac{1}{\text{batch_size}}\sum_{i=1}^{\text{batch_size}} (f^n_i - f^g_i)^2 "/>.
+The final topological loss is defined as ![equation](https://latex.codecogs.com/gif.latex?L_%7B%5Ctext%7BTop%7D%7D%20%3D%20%5Cfrac%7B1%7D%7B%5Ctext%7Bbatch_size%7D%7D%5Csum_%7Bi%3D1%7D%5E%7B%5Ctext%7Bbatch_size%7D%7D%20%28f%5En_i%20-%20f%5Eg_i%29%5E2)
