@@ -21,6 +21,10 @@ To finetune GPT-2 on [ShortJokes dataset](https://www.kaggle.com/abhinavmoudgil9
 
 To examine the MST calculation functions we tried using, refer to [mst.py](https://github.com/danchern97/LossTop/blob/main/mst.py).
 
+## Finetuned models
+
+Both default finetuned GPT-2 and the one trained with topological loss are localted [here](https://drive.google.com/drive/folders/1FlkIAoY8zWC7T9E1j18uYZ0N1q32A75a?usp=sharing)
+
 ## Some explanations
 
 Calculating original topological features is very time consuming, so we used an approximation to H0s, that is the sum of weights above threshold:
