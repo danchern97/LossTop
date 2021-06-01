@@ -19,7 +19,10 @@ To examine the MST calculation functions we used, refer to [mst.py](https://gith
 
 ## Theoretical part
 
-Calculating original topological features is very time consuming, so we used an approximation to H0s, that is the sum of weights above threshold 
-![equation](https://latex.codecogs.com/gif.latex?f%20%3D%20%5Csum_%7Bi%2Cj%3D1%7DW_%7Bij%7D%5Cmathbb%7B1%7D%5BW_%7Bij%7D%20%3E%20t%5D)
+Calculating original topological features is very time consuming, so we used an approximation to H0s, that is the sum of weights above threshold:
 
-The final topological loss is defined as ![equation](https://latex.codecogs.com/gif.latex?L_%7B%5Ctext%7BTop%7D%7D%20%3D%20%5Cfrac%7B1%7D%7B%5Ctext%7Bbatch_size%7D%7D%5Csum_%7Bi%3D1%7D%5E%7B%5Ctext%7Bbatch_size%7D%7D%20%28f%5En_i%20-%20f%5Eg_i%29%5E2)
+![equation](https://latex.codecogs.com/gif.latex?f%20%3D%20%5Csum_%7Bi%2Cj%3D1%7D%20W_%7Bij%7D%20%5Cmathbf%7B1%7D%5BW_%7Bij%7D%20%3E%20t%5D)
+
+The final topological loss is defined as 
+
+![equation](https://latex.codecogs.com/gif.latex?L_%7B%5Ctext%7BTop%7D%7D%20%3D%20%5Cfrac%7B1%7D%7B%5Ctext%7Bbatch%5C_size%7D%7D%5Csum_%7Bi%3D1%7D%5E%7B%5Ctext%7Bbatch%5C_size%7D%7D%20%28f%5En_i%20-%20f%5Eg_i%29%5E2)
