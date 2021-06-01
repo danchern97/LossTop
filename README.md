@@ -1,5 +1,5 @@
 # LossTop
-Repository for Skoltech DL project 2021 "Investigation of topological losses for neural text generation"
+Repository for Skoltech Deep Learning course project "Investigation of topological losses for neural text generation" 2021
 
 ![The distribution of feature for natural and generated texts during training on 4 layer, 11 head](https://media.giphy.com/media/V9mGnh1b3chIu5YZAT/giphy.gif)
 
