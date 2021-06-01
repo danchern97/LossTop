@@ -1,0 +1,8 @@
+torch==1.7.1
+tqdm==4.56.0
+transformers==4.3.0
+matplotlib==3.3.4
+scikit-learn==0.24.1
+tensorboard==2.5.0
+pandas==1.2.1
+numpy==1.20.1
